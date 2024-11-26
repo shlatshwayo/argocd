@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: podtato-server
-        image: schule/podtato-server:v0.3.3
+        image: nginx:lastest
         ports:
         - containerPort: 80
